@@ -74,7 +74,7 @@ PipelineSecrets:
                     <id>nexus</id>
                     <name>nexus mirror</name>
                     <mirrorOf>external:*</mirrorOf>
-                    <url>http://nexus/repository/maven-group/</url>
+                    <url>http://nexus.fluxtop.local/repository/maven-public/</url>
                 </mirror>
               </mirrors>
 {{- end }}
